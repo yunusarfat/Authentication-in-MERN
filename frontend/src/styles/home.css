@@ -1,0 +1,146 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.home-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 65px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #000;
+}
+
+.logout-button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background: #dc2626;
+}
+
+/* Products section */
+.products-section {
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.products-section h1 {
+  margin-bottom: 1px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.product-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.product-item {
+  padding: 12px 16px;
+  background: #f3f4f6;
+  margin-bottom: 1px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.product-item:hover {
+  background: #e5e7eb;
+}
+
+/* Add product form */
+.productsadd {
+  margin-top: 3px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.productsadd h5 {
+  font-size: 20px;
+  margin-bottom: 2px;
+  color: #1f2937;
+}
+
+.productsadd form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productsadd input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  transition: border-color 0.3s;
+}
+
+.productsadd input:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+.productsadd button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.productsadd button:hover {
+  background-color: #4338ca;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .header,
+  .products-section,
+  .productsadd {
+    padding: 15px;
+  }
+
+  .productsadd form {
+    gap: 10px;
+  }
+
+  .productsadd input,
+  .productsadd button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
