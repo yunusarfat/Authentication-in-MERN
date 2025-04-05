@@ -30,13 +30,13 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) project that 
 
 ---
 # start backend
-cd backend
-npm install
-npx nodemon index.js
+cd backend <br/>
+npm install <br/>
+npx nodemon index.js <br/>
 # start frontend
-cd frontend
-npm install
-npm run dev
+cd frontend <br/>
+npm install <br/>
+npm run dev <br/>
 # screenshots
 ![Image](https://github.com/user-attachments/assets/05540c68-1c12-46da-83fe-bba6dc6aaf1c)
 ![Image](https://github.com/user-attachments/assets/789d9cd4-f3e4-487d-9e91-1655e8964ca0)
